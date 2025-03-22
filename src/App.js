@@ -72,7 +72,7 @@ function Form({onAddItems}){
    setDescription("");
    setQuantity(1); 
    }
-  
+  //
  return ( 
  <form className="add-form"  onSubmit={handleSubmit}>
   <select value={quantity} onChange={(e) => setQuantity(Number(e.target.value))}>
